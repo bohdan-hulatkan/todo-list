@@ -1,0 +1,8 @@
+/*ГОТОВО*/
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #292b2c;
+  width: 20%;
+  height: 100vh;
+}

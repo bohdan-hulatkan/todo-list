@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*ГОТОВО*/
+.category-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #36393b;
+  width: calc(100% - 30px);
+  height: calc(100% - 160px);
+  margin: 0px 15px 15px 15px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: #292b2c;
+  width: calc(100% - 10px);
+  min-height: 30px;
+  height: auto;
+  margin: 0px 5px 5px 5px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.category-title {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 10px);
+  height: 20px;
+  margin: 5px;
+}
+
+.delete-category-button,
+.edit-category-button {
+  color: #fffffb;
+  width: 20px;
+  height: 20px;
+}
+
+.category-name {
+  margin: auto auto auto 5px;
+  color: #fffffb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}

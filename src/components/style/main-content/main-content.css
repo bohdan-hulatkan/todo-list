@@ -1,0 +1,19 @@
+/*ГОТОВО*/
+.main-content {
+  background-color: #36393b;
+  width: 80%;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: calc(100% - 30px);
+  margin: 15px auto 15px auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: #fffffb;
+  border-left-style: solid;
+  border-right-style: solid;
+}

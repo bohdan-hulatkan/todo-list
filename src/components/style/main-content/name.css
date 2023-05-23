@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*ВИКОНАНО*/
+.name {
+  margin: 5px auto 15px auto;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-color: #fffffb;
+  color: #fffffb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}

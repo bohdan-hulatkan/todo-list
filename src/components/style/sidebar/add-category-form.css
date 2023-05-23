@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*ГОТОВО*/
+.add-category-form {
+  display: flex;
+  flex-direction: row;
+  background-color: #36393b;
+  width: calc(100% - 30px);
+  height: 50px;
+  margin: 0px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+.input-add-category-form {
+  background-color: #292b2c;
+  width: calc(100% - 60px);
+  margin: 5px;
+  padding-left: 5px;
+  color: #fffffb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.button-add-category-form {
+  color: #fffffb;
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px 5px auto;
+}

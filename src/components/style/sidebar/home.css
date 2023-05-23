@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*ГОТОВО*/
+.home {
+  display: flex;
+  flex-direction: row;
+  background-color: #36393b;
+  width: calc(100% - 30px);
+  height: 50px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.icon-home {
+  color: #fffffb;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.label-home {
+  color: #fffffb;
+  margin: auto auto auto 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}

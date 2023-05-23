@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*ГОТОВО*/
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #292b2c;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  background-color: #36393b;
+  width: calc(100% - 10px);
+  min-height: 50px;
+  height: auto;
+  margin: 0px 5px 5px 5px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.todo-title {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 10px);
+  height: 40px;
+  margin: 5px;
+}
+
+.delete-todo-button,
+.edit-todo-button {
+  color: #fffffb;
+  width: 40px;
+  height: 40px;
+}
+
+.todo-priority {
+  width: 40px;
+  margin: auto auto auto 5px;  
+  color: #fffffb;
+  text-align: center;
+  border-color: #fffffb;
+  border-style: solid;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.todo-text {
+  margin: auto auto auto 5px;
+  color: #fffffb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
